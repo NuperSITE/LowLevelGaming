@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>game | loweffortgaming</title>
+
+    <link rel="stylesheet" href="fonts/COMICSANS.TFF" />
+    <style>
+      body {
+        font-family: "Comic Sans MS", cursive;
+      }
+
+      .middle {
+        text-align: center;
+      }
+
+      .custom-text {
+        font-family: "Comic Sans MS", cursive;
+        font-size: 24px;
+      }
+
+      .center-links {
+        text-align: center;
+        margin-top: 20px; /* Space from the title */
+      }
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .box {
+        background-color: #fff; /* White background */
+        border: 2px solid #000; /* Black border */
+
+        padding: 20px;
+        width: 200px; /* Set a fixed width, or use percentages if you prefer */
+        height: 250px; /* Adjust height as necessary */
+        transition: transform 0.2s;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 19px; /* Adjust margin as needed */
+        color: #000; /* Black text color */
+      }
+
+      .image-box img {
+        max-width: 100%; /* Ensure image fits within container */
+        height: auto;
+      }
+
+      .caption {
+        font-size: 16px; /* Adjust font size */
+        text-align: center; /* Center caption */
+      }
+
+      .divider {
+        margin: 10px auto; /* Adjust spacing */
+        width: 80%; /* Stretch line across the width of the box */
+        border-bottom: 2px solid #000; /* Black line properties */
+      }
+
+      .content,
+      .contenttwo,
+      .contentthree,
+      .contentfour {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start; /* Align items to the start of the container */
+        flex-wrap: wrap; /* Allows items to wrap within the container */
+        margin: 10px auto; /* Gives some space at the top and bottom, centers horizontally */
+        padding: 20px; /* Adds padding inside the container */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center-links">
+      <a href="index.html">home</a> | <a href="#">games</a> |
+      <a href="info.html">info</a>
+    </div>
+
+    <h1 class="middle">Games</h1>
+    <p class="middle">select one</p>
+
+    <div class="content">
+      <div class="container">
+        <div class="box" onclick="location.href='basketballgoofy/game.html';">
+          <div class="image-box">
+            <img src="images/basketball-stars.png" alt="Image" />
+            <div class="divider"></div>
+            <div class="caption">baseket ball stars</div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="box" onclick="location.href='monkeymart/monkeys.html';">
+          <div class="image-box">
+            <img src="images/monkeymart.png" alt="Image" />
+            <div class="divider"></div>
+            <div class="caption">monkey mart</div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="box" onclick="location.href='grritshard/hard.html';">
+          <div class="image-box">
+            <img src="images/hardgame.png" alt="Image" />
+            <div class="divider"></div>
+            <div class="caption">world hardest game</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="box" onclick="location.href='hard2/hard2.html';">
+          <div class="image-box">
+            <img src="images/hard2.png" alt="Image" />
+            <div class="divider"></div>
+            <div class="caption">world hardest game 2</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="box" onclick="location.href='baldi/baldi.html';">
+          <div class="image-box">
+            <img src="baldi/logo.png" alt="Image" />
+            <div class="divider"></div>
+            <div class="caption">baldi</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="box" onclick="location.href='superhot/game.html';">
+          <div class="image-box">
+            <img src="superhot/logo.png" alt="Image" />
+            <div class="divider"></div>
+            <div class="caption">superhot</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
